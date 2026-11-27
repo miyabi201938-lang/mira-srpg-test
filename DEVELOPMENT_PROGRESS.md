@@ -12,6 +12,11 @@
 
 
 ## ミラ参考資料フォルダ（2026-11-27追加）
+- 参考資料フォルダ：`characters/mira/reference/`。
+- **戦闘時デザイン参考原本**：`mira_battle_design_reference.PNG`（GitHub上で確認済み）。
+- **フィールド動作指針・改訂5原本**：`mira_field_animation_reference_rev5.PNG`（GitHub上で確認済み）。
+- 両原本とREADMEを参考資料フォルダに集約。素材制作時は原本画像を参照する。
+
 - 参考資料専用フォルダを作成：`characters/mira/reference/`
 - `characters/mira/reference/README.md` に参考資料の区分とルールを記録。
 - 戦闘時ミラPNG原本は現在 `characters/mira/battle/mira_battle_reference.PNG` に保存済み。参考資料としても使用する。
