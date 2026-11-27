@@ -16,6 +16,7 @@ Updated: 2026-11-28
 - Polygon: (140,0), (420,0), (560,220), (420,440), (140,440), (0,220)
 
 ## Current status
+- Continuous 7-hex forest draft generated (2026-11-28); visual QA failed: checkerboard background is baked into RGB (no alpha) and tile seam outlines/geometry are imperfect. This is a draft only, not a master.
 - Existing 7-hex base file: `field-map-masters/forest/forest-7hex-base.png`
 - Individual tile concept images exist, but edge continuity is not approved.
 - Center tile is the fixed reference; do not redraw or alter the center tile during edge-tile corrections.
