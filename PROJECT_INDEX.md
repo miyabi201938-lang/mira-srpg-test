@@ -33,3 +33,7 @@
 
 ## ミラ人物マスター制作
 - [BUST_UP_MASTER_GUIDELINES.md](characters/mira/personality_reference/BUST_UP_MASTER_GUIDELINES.md) — ミラのバストアップ角度別マスター作成手順、1枚ずつ審査するルール、顔・髪・画風の固定基準。
+
+
+## ミラ正面バストアップ再現設定
+- [MIRA_FRONT_BUSTUP_SHORT_PONYTAIL_SETTINGS.md](characters/mira/personality_reference/MIRA_FRONT_BUSTUP_SHORT_PONYTAIL_SETTINGS.md) — ユーザー承認済み短めポニーテール正面バストアップの髪色数値、髪形、顔比率概算、固定要素、透過ルール。
