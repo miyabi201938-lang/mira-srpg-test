@@ -25,3 +25,7 @@
 - [DEVELOPMENT_PROGRESS.md](DEVELOPMENT_PROGRESS.md) — 開発全体の最新状況と次回作業開始手順。次回はまずこのファイルを確認する。
 
 - [MIRA_FIELD_UNIT_GUIDELINES.md](MIRA_FIELD_UNIT_GUIDELINES.md) — ミラのフィールド状態、移動、選択、レベルアップ演出の新規確定指針。
+
+
+## ミラ人物参考資料
+- `characters/mira/personality_reference/` — 戦闘・フィールド用に限定しない、日常・表情・髪型・服装・所作など人物像を固める参考画像。採用画像はユーザーがアップロード。
