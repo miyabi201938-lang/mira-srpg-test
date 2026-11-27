@@ -209,8 +209,8 @@ style.textContent=`
 
 .unit-token.combat-hit{animation:combatHit 420ms ease-in-out;}
 
-@keyframes rangePulseBlue{0%,49%{fill-opacity:.34;stroke-opacity:1;}50%,100%{fill-opacity:.045;stroke-opacity:.16;}}
-@keyframes rangePulseRed{0%,49%{fill-opacity:.045;stroke-opacity:.16;}50%,100%{fill-opacity:.34;stroke-opacity:1;}}
+@keyframes rangePulseBlue{0%,24%{fill-opacity:.34;stroke-opacity:1;}25%,100%{fill-opacity:.045;stroke-opacity:.16;}}
+@keyframes rangePulseRed{0%,24%{fill-opacity:.045;stroke-opacity:.16;}25%,100%{fill-opacity:.34;stroke-opacity:1;}}
 
 .move-range-hex{fill:#0878ff;fill-opacity:.34;stroke:#004cbd;stroke-width:1.4;animation:rangePulseBlue 2s ease-in-out infinite;pointer-events:none;}
 
