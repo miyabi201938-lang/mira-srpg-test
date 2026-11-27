@@ -29,3 +29,7 @@
 
 ## ミラ人物参考資料
 - `characters/mira/personality_reference/` — 戦闘・フィールド用に限定しない、日常・表情・髪型・服装・所作など人物像を固める参考画像。採用画像はユーザーがアップロード。
+
+
+## ミラ人物マスター制作
+- [BUST_UP_MASTER_GUIDELINES.md](characters/mira/personality_reference/BUST_UP_MASTER_GUIDELINES.md) — ミラのバストアップ角度別マスター作成手順、1枚ずつ審査するルール、顔・髪・画風の固定基準。
