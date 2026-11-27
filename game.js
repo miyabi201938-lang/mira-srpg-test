@@ -212,10 +212,10 @@ style.textContent=`
 @keyframes rangePulseBlue{0%,49%{fill-opacity:.38;stroke-opacity:1;}50%,100%{fill-opacity:.12;stroke-opacity:.55;}}
 @keyframes rangePulseRed{0%,49%{fill-opacity:.12;stroke-opacity:.55;}50%,100%{fill-opacity:.38;stroke-opacity:1;}}
 
-.move-range-hex{fill:#0878ff;fill-opacity:.34;stroke:#004cbd;stroke-width:1.4;animation:rangePulseBlue 2s ease-in-out infinite;pointer-events:none;}
+.move-range-hex{fill:#0878ff;fill-opacity:.34;stroke:#004cbd;stroke-width:1.4;animation:rangePulseBlue .8s linear infinite;pointer-events:none;}
 
-.attack-range-hex{fill:#ff2020;fill-opacity:.045;stroke:#a51010;stroke-width:1.4;animation:rangePulseRed 2s ease-in-out infinite;pointer-events:none;}
-.attack-range-lit{fill:#ff2020;fill-opacity:.38;stroke:#a51010;stroke-width:1.4;pointer-events:none;}
+.attack-range-hex{fill:#ff2020;fill-opacity:.045;stroke:#a51010;stroke-width:1.4;animation:rangePulseRed .8s linear infinite;pointer-events:none;}
+.attack-range-lit{fill:#ff2020;fill-opacity:.52;stroke:#a51010;stroke-width:1.8;pointer-events:none;}
 
 @keyframes battleHexPulse{0%,100%{opacity:.55;stroke-width:3;}50%{opacity:1;stroke-width:5;}}
 
