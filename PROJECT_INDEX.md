@@ -23,3 +23,5 @@
 この整理作業ではファイルを削除・移動・上書きしていない。後日、参照先を確認しながら必要なファイルを移動する場合も、元データの保全を優先する。
 ## 開発進捗・引き継ぎ
 - [DEVELOPMENT_PROGRESS.md](DEVELOPMENT_PROGRESS.md) — 開発全体の最新状況と次回作業開始手順。次回はまずこのファイルを確認する。
+
+- [MIRA_FIELD_UNIT_GUIDELINES.md](MIRA_FIELD_UNIT_GUIDELINES.md) — ミラのフィールド状態、移動、選択、レベルアップ演出の新規確定指針。
