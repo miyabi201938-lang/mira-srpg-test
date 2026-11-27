@@ -65,3 +65,34 @@
 
 ### 次工程
 このゾーン案をヘックス単位の地形配置へ落とし、各ルートが実際に連続しているか、森林コストを含めて騎兵が包囲位置に到達できるかを検証する。ここまでは制作側の配置案であり、正式確定ではない。
+
+
+## ヘックス座標ゾーン配置・第2案（可視化／未確定）
+座標は左上を `(1,1)` とし、横22列・縦16行。各記号はゾーンの仮分類。実際の六角形表示は列ごとの上下ずらしを適用する。
+
+```
+01 F F F F F F F F F F F F F F F F F F F F F F
+02 F K T T F F F F F F F F F F F F F F F F F F
+03 F F F P P T F F F F F F F F F F F F F F F F
+04 F F F F F P T T F F F F F F F F F F F F F F
+05 F F F F F F F P F F F F F F F F F F F F F F
+06 F F F F F F T P F F F F F F F F F F F F F F
+07 F F F F F T T P F F F F F F F F F F F F F F
+08 F F F F T T C C C F F F F F F F F F F F F F
+09 F F F T T C C C C T F F F F F F F F F F F F
+10 F F F F T C C C T T F F F F F F F F F F F F
+11 F F F F F T T T F F F F F F F F F F F F F F
+12 F F F F F F F F F F F F F T T T F F F F F F
+13 F F F F F F F F F F F F T T A A F F F F F F
+14 F F F F F F F F F F F F F T A A F F F F F F
+15 F F F F F F F F F F F F F F T T F F F F F F
+16 F F F F F F F F F F F F F F F F F F F F F F
+```
+
+### ルートの読み方（第2案）
+- **騎兵ルート（北西開始）**：`K` から北側の `T/P` を使い、北～西の外縁を回って野営地北西側へ接近する想定。途中の連続性は次段階でヘックス座標により検証する。
+- **本隊ルート（東～南東開始）**：`A` から南東側の `T/P` を通り、野営地東側へ進むルートを想定。最初の攻撃で敵の潜伏状態を解除する。
+- **野営地 `C`**：中央より西寄りに小さく不規則な空き地。施設・敵配置はまだ描いていない。
+- **森林 `F`**：大部分を占める森。密度・通行不可ヘックスの内訳は未設定。
+
+> これはマップの地形ゾーンを配置するための文字図であり、完成マップではない。次はこの図を実ヘックスの形に整えて、ルートのつながりと初期配置候補を確認する。
