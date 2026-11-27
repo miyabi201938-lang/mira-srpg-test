@@ -819,9 +819,9 @@ for(let y=0;y<rows;y++)for(let x=0;x<cols;x++)if(isEnemyAttackCell(selectedEnemy
 
 }
 
-if(selected){const s=document.createElementNS(svgNS,"polygon");s.setAttribute("points",polygonPoints(selected.x,selected.y));s.setAttribute("stroke",pendingMove?"#e53935":"#e5a000");s.setAttribute("fill","none");s.setAttribute("stroke-width","4");s.style.pointerEvents="none";board.appendChild(s);}
+if(selected){const s=document.createElementNS(svgNS,"polygon");s.setAttribute("points",polygonPoints(selected.x,selected.y));s.setAttribute("stroke",pendingMove?"#e53935":"#e5a000");s.setAttribute("fill","none");s.setAttribute("stroke-width","3");s.style.pointerEvents="none";}
 
-if(selectedEnemy&&selectedEnemy.hp>0){const s=document.createElementNS(svgNS,"polygon");s.setAttribute("points",polygonPoints(selectedEnemy.x,selectedEnemy.y));s.setAttribute("stroke","#1565c0");s.setAttribute("fill","none");s.setAttribute("stroke-width","4");s.style.pointerEvents="none";board.appendChild(s);}
+if(selectedEnemy&&selectedEnemy.hp>0){const s=document.createElementNS(svgNS,"polygon");s.setAttribute("points",polygonPoints(selectedEnemy.x,selectedEnemy.y));s.setAttribute("stroke","#1565c0");s.setAttribute("fill","none");s.setAttribute("stroke-width","3");s.style.pointerEvents="none";}
 
 drawBattleVisual();
 
