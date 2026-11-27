@@ -37,3 +37,7 @@
 
 ## ミラ正面バストアップ再現設定
 - [MIRA_FRONT_BUSTUP_SHORT_PONYTAIL_SETTINGS.md](characters/mira/personality_reference/MIRA_FRONT_BUSTUP_SHORT_PONYTAIL_SETTINGS.md) — ユーザー承認済み短めポニーテール正面バストアップの髪色数値、髪形、顔比率概算、固定要素、透過ルール。
+
+
+## 共通地形グラフィックマスター
+- [HEX_TERRAIN_MASTER.md](maps/terrain/HEX_TERRAIN_MASTER.md) — 複数ステージで再利用する地形ヘックス・オブジェクト素材の分類、画風／透過／寸法基準、制作手順（制作案・未完）。
