@@ -10,6 +10,13 @@
 - フィールド用ミニキャラ制作でも、この高頭身モデルをデザイン参考にする。フィールドでは抜刀しない（改訂5動作指針が優先）。
 - 保存先メモ：`characters/mira/battle/README.md` に記録済み。**今回のPNG原画像はチャット添付で受領・確認済み。GitHub画像本体アップロードは未完了。**
 
+
+## ミラ参考資料フォルダ（2026-11-27追加）
+- 参考資料専用フォルダを作成：`characters/mira/reference/`
+- `characters/mira/reference/README.md` に参考資料の区分とルールを記録。
+- 戦闘時ミラPNG原本は現在 `characters/mira/battle/mira_battle_reference.PNG` に保存済み。参考資料としても使用する。
+- フィールド動作指針PNG原本は `characters/mira/reference/mira_field_animation_reference_rev5.png` として保存予定（原本画像アップロードは未完了）。
+
 # 『興亡のヴァルディア』開発全体・進捗引き継ぎ
 
 更新日：2026-11-27
