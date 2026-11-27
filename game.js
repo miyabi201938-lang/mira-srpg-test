@@ -215,6 +215,7 @@ style.textContent=`
 .move-range-hex{fill:#0878ff;fill-opacity:.34;stroke:#004cbd;stroke-width:1.4;animation:rangePulseBlue 2s ease-in-out infinite;pointer-events:none;}
 
 .attack-range-hex{fill:#ff2020;fill-opacity:.045;stroke:#a51010;stroke-width:1.4;animation:rangePulseRed 2s ease-in-out infinite;pointer-events:none;}
+.attack-range-lit{fill:#ff2020;fill-opacity:.38;stroke:#a51010;stroke-width:1.4;pointer-events:none;}
 
 @keyframes battleHexPulse{0%,100%{opacity:.55;stroke-width:3;}50%{opacity:1;stroke-width:5;}}
 
@@ -806,7 +807,7 @@ for(let y=0;y<rows;y++)for(let x=0;x<cols;x++)if(isMoveTarget(x,y)){const hex=do
 
 if(selected&&selected.side==="ally"&&!battleVisual&&!battleEnded&&!menuOpen&&!selected.acted&&!selected.waited&&currentTurn==="ally"){
 
-for(let y=0;y<rows;y++)for(let x=0;x<cols;x++)if(isAttackRangeCell(x,y)){const hex=document.createElementNS(svgNS,"polygon");hex.setAttribute("points",polygonPoints(x,y));hex.setAttribute("class","attack-range-hex");board.appendChild(hex);}
+for(let y=0;y<rows;y++)for(let x=0;x<cols;x++)if(isAttackRangeCell(x,y)){const hex=document.createElementNS(svgNS,"polygon");hex.setAttribute("points",polygonPoints(x,y));hex.setAttribute("class",selected.moved?"attack-range-lit":"attack-range-hex");board.appendChild(hex);}
 
 }
 
